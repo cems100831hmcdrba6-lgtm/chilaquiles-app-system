@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fff9f0;
+  color: #333;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: #ffd990;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #8b4513;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #664420;
+}
+
+.seccion-formulario,
+.seccion-resumen {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.seccion-formulario h2,
+.seccion-resumen h3 {
+  color: #8b4513;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f0d090;
+  padding-bottom: 8px;
+}
+
+.campo {
+  margin-bottom: 18px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #5a3815;
+}
+
+.campo select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0c080;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fffdf8;
+}
+
+.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.checkbox input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.seccion-resumen p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.total {
+  margin-top: 15px;
+  color: #2e7d32;
+  font-size: 1.4rem;
+}
+
+.btn-confirmar {
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.btn-confirmar:hover {
+  background-color: #218838;
+}
